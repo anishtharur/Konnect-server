@@ -1,0 +1,14 @@
+{
+    "firstName": "Anish",
+    "lastName": "Tharur",
+    "email": "anishtharurdd21@gmail.com",
+    "password": "$2b$10$TIvzztW3XIfEOxGISor7j.QGiE7ewUQiVmQNhjWtajNtc2Th2GJ2O",
+    "picturePath": "path",
+    "friends": [],
+    "viewedProfile": 2759,
+    "impressions": 2838,
+    "_id": "646a55eb514eb211fa202fbd",
+    "createdAt": "2023-05-21T17:33:31.351Z",
+    "updatedAt": "2023-05-21T17:33:31.351Z",
+    "__v": 0
+}

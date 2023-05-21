@@ -50,6 +50,6 @@ mongoose
 app.post("/auth/register", upload.single("picture"), register);
 
 /*Routes */
-app.use("auth", authRoutes);
+app.use("/auth", authRoutes);
 
 app.listen(PORT, () => console.log(`Connected to ${PORT}`));
