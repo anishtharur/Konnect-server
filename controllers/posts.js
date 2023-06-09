@@ -50,9 +50,8 @@ export const likePost = async (req, res) => {
   try {
     const { id } = req.params;
     const { userId } = req.body;
-    console.log(id, typeof id, userId, typeof userId);
+
     const post = await Post.findById(id);
-    console.log(post);
     const isLiked = post.likes.get(userId);
 
     if (isLiked) {
